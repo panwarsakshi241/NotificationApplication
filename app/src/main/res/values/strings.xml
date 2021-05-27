@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notification Application</string>
+    <string name="username_EditText">Enter Username</string>
+    <string name="enter_password_ET">Enter Password</string>
+    <string name="l_o_g_i_n_tv">L o g i n</string>
+    <string name="send_otp_btn">Send OTP</string>
+    <string name="disconnected_tv">Disconnected</string>
+    <string name="no_Internet_TV">Make sure you are connected to internet</string>
+    <string name="connected_tv">Connected</string>
+    <string name="InternetAvailable_tv">You are Connected</string>
+    <string name="OTP">Enter the recieved OTP</string>
+
+</resources>

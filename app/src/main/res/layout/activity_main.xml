@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/loginTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/mr_bedfort"
+        android:text="@string/l_o_g_i_n_tv"
+        android:textColor="@color/red"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:hint="@string/username_EditText"
+        android:textSize="14sp"
+        android:drawableStart="@drawable/custom_username_icon"
+        android:drawableLeft="@drawable/custom_username_icon"
+        android:autofillHints="@string/username_EditText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="16dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_input"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textWebPassword"
+        android:hint="@string/enter_password_ET"
+        android:textSize="14sp"
+        android:drawableStart="@drawable/custom_password_icon"
+        android:drawableLeft="@drawable/custom_password_icon"
+        android:autofillHints="@string/enter_password_ET"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="16dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_input"
+        android:padding="16dp"/>
+
+
+
+    <Button
+        android:id="@+id/sendnotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_otp_btn"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#03A9F4"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
